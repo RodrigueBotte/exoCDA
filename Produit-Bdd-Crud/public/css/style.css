@@ -1,0 +1,86 @@
+*, ::before, ::after{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.navBar{
+    height: 20vh;
+    background-color : lightblue ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: berkish;
+    img{
+        width: 15%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    div{
+        width: 25vw;
+        height: 5vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            background-color: white;
+            padding: 2px 20px ;
+            border-radius: 20px;
+            font-size: 2rem;
+            text-decoration: none;
+            color: black;
+            transition: 0.5s linear;
+        }
+        a:hover{
+            background-color: aqua;
+            box-shadow: 2px 2px 5px black;
+        }
+    }
+}
+
+footer{
+    background-color: lightblue;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    p{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    div{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        div{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            div{
+                display: flex;
+                flex-direction: row;
+                i{
+                    font-size: 30px;
+                    color: black;
+                }
+                .fa-linkedin{
+                    color: #0a68c6;
+                }
+            }
+        }
+    }
+}
+
+@font-face {
+    font-family: berkish;
+    src: url(../assets/font/BerkshireSwash-Regular.ttf);
+}
