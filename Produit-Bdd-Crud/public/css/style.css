@@ -4,7 +4,7 @@ padding:0;
 box-sizing: border-box;
 }
 
-.navBar{
+/* .navBar{
     height: 20vh;
     background-color : lightblue ;
     display: flex;
@@ -38,7 +38,17 @@ box-sizing: border-box;
             box-shadow: 2px 2px 5px black;
         }
     }
+} */
+.bg-lightblue{
+    background-color: lightblue;
 }
+.w-15{
+    width: 15%;
+}
+.fontF{
+    font-family: berkish;
+}
+
 
 footer{
     background-color: lightblue;
@@ -53,6 +63,7 @@ footer{
     p{
         font-size: 1.2rem;
         font-weight: bold;
+        font-family: berkish;
     }
     div{
         width: 70%;
