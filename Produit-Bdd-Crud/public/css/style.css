@@ -3,42 +3,6 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 }
-
-/* .navBar{
-    height: 20vh;
-    background-color : lightblue ;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-family: berkish;
-    img{
-        width: 15%;
-    }
-    h1{
-        font-size: 3rem;
-    }
-    div{
-        width: 25vw;
-        height: 5vh;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        a{
-            background-color: white;
-            padding: 2px 20px ;
-            border-radius: 20px;
-            font-size: 2rem;
-            text-decoration: none;
-            color: black;
-            transition: 0.5s linear;
-        }
-        a:hover{
-            background-color: aqua;
-            box-shadow: 2px 2px 5px black;
-        }
-    }
-} */
 .bg-lightblue{
     background-color: lightblue;
 }
@@ -47,6 +11,9 @@ box-sizing: border-box;
 }
 .fontF{
     font-family: berkish;
+}
+.fontSize30{
+    font-size: 30px;
 }
 
 
