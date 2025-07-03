@@ -15,6 +15,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="../../test/testConnexion.php">Test BDD</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../../templates/ajouterEleve.php">Ajouter un élève</a>
+                </li>
             </ul>
         </div>
     </div>
