@@ -1,8 +1,8 @@
-<footer class="text-center text-body-secondary fixed-bottom">
+</div>
+<footer class="text-center text-body-secondary ">
     <div class="bg-lightgrey h50 d-flex justify-content-center align-items-center">
         <p class="text-white">Matte moi ce pied de sapin 🌲</p>
     </div>
-
 </footer>
 </body>
 
