@@ -13,6 +13,13 @@
 body{
   height: 100%;
 }
+.p-15{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.gap-25{
+  gap: 25px;
+}
 
 @font-face {
   font-family: test;
