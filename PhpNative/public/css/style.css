@@ -4,5 +4,24 @@
 .h50 {
   height: 70px;
 }
+.fontTheme{
+  font-family: test;
+}
+.tailleMinMain{
+  min-height: 93vh;
+}
+body{
+  height: 100%;
+}
+.p-15{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.gap-25{
+  gap: 25px;
+}
 
-
+@font-face {
+  font-family: test;
+  src: url(../font/Unkempt-Regular.ttf);
+}

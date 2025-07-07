@@ -10,7 +10,7 @@
                     <a class="nav-link text-white" aria-current="page" href="../../index.php">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="../listeEleve.php">Listes des élèves</a>
+                    <a class="nav-link text-white" href="../../templates/listeEleve.php">Listes des élèves</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="../../test/testConnexion.php">Test BDD</a>

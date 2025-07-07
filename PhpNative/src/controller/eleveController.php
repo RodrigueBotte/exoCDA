@@ -1,5 +1,5 @@
 <?php
-require_once '../../config/connexionPdo.php';
+require_once __DIR__.'/../../config/connexionPdo.php';
 $co = connectionDb();
 $req = "SELECT * from stagiaire";
 $resp = $co->query($req);

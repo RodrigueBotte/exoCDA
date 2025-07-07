@@ -11,4 +11,5 @@
 </head>
 
 <body>
+    <div class="tailleMinMain">
     
