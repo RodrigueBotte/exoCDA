@@ -5,7 +5,7 @@ require_once './partials/_navBar.php'
 ?>
 
 <h1>Ajouter un élève</h1>
-<form action="../src/controller/ajouterEleveController.php" method="post" enctype="multipart/form-data">
+<form action="../src/controller/ajouterEleveController.php" method="post" enctype="multipart/form-data" class="p-5 m-0">
     <div class="mb-3">
         <label for="nom" class="form-label">Nom de l'élève : </label>
         <input type="text" class="form-control" id="nom" aria-describedby="nomEleve">
